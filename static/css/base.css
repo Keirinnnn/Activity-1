@@ -1,5 +1,5 @@
 body {
-    height: auto;
+    height: 100vh;
     background: lightblue;
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     margin: 0;
@@ -7,6 +7,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 a {
@@ -18,7 +26,6 @@ a {
     margin-right: 10px;
     border-radius: 5px;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-weight: 400;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -28,15 +35,14 @@ a:hover {
     background: lightblue;
 }
 
-header {
-    text-align: center;
-}
-
 h1 {
     font-size: 100px;
     margin: 0;
 }
 
 .Logo {
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    display: block;
 }
